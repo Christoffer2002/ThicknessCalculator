@@ -1,0 +1,13 @@
+pyproject.toml
+src/swanepoel/__init__.py
+src/swanepoel/extrema.py
+src/swanepoel/io.py
+src/swanepoel/models.py
+src/swanepoel/optics.py
+src/swanepoel/pipeline.py
+src/swanepoel/thickness.py
+src/swanepoel.egg-info/PKG-INFO
+src/swanepoel.egg-info/SOURCES.txt
+src/swanepoel.egg-info/dependency_links.txt
+src/swanepoel.egg-info/requires.txt
+src/swanepoel.egg-info/top_level.txt
