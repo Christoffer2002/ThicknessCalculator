@@ -39,6 +39,6 @@ Use ```frequency.py``` after an initial thickness estimate to verify that your s
 # Installation
 ```
 git clone https://github.com/Christoffer2002/ThicknessCalculator.git
-cd swanepoel-calculator
-pip install -r requirements.txt
+cd ThicknessCalculator
+pip install .
 ```
