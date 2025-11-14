@@ -2,7 +2,7 @@
 This project is an implementation of the Swanepoel method utilizing the transmission spectrum through a thin film to determine the thickness and refractive index of said film. This script follows the R. Swanepoel approach descriped in ** R Swanepoel 1983 J. Phys. E: Sci. Instrum. 16 1214**.
 
 # How to use
-The ```examples/``` folder contains simple test cases demonstrating how to use the pipeline with real data. ```examples/run_single.py``` is an example of a script running the full pipeline on one single optical measurment and ```examples/run_multiple.py``` is an example of multiple measurments.
+The ```examples/``` folder contains simple test cases demonstrating how to use the pipeline with real data. ```examples/run_single.py``` is an example of a script running the full pipeline on one single optical measurement and ```examples/run_multiple.py``` is an example of multiple measurements.
 
 # Method overview
 The Swanepoel method utilizes the positive and negative intereference fringes within the transmission spectrum to calculate film thickness.
