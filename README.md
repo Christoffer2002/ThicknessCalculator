@@ -36,9 +36,9 @@ If it exceeds the substrate thickness, the substrate itself forms a Fabry–Pero
 ## Wavelength Dependence
 Coherence length increases with wavelength. At longer wavelengths it may eventually exceed substrate thickness or create high-frequency oscillations. These effects can distort envelope extraction and introduce incorrect fringe order assignment.
 In summary, the coherence length must lie between the film thickness and the substrate thickness:
-$d<L_{coherence}<d_{substrate}$
+$d_{film}<L_{coherence}<d_{substrate}$
 ## Tip 👍
-Use ```frequency.py``` after an initial thickness estimate to verify that your spectral sampling meets Nyquist for the predicted fringe rate; if not, increase spectral resolution or restrict the analysis range
+Use ```frequency.py``` after an initial thickness estimate to verify that your spectral sampling meets Nyquist for the predicted fringe rate; if not, increase spectral resolution or restrict the analysis range.
 # Installation
 ```
 git clone https://github.com/Christoffer2002/ThicknessCalculator.git
