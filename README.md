@@ -1,5 +1,9 @@
 # Swanepoel optical thickness and constants calculator
 This project is an implementation of the Swanepoel method utilizing the transmission spectrum through a thin film to determine the thickness and refractive index of said film. This script follows the R. Swanepoel approach descriped in ** R Swanepoel 1983 J. Phys. E: Sci. Instrum. 16 1214**.
+> **R. Swanepoel (1983)**  
+> *Determination of the thickness and optical constants of amorphous silicon.*  
+> *Journal of Physics E: Scientific Instruments,* **16**, 1214–1222.  
+
 
 # How to use
 The ```examples/``` folder contains simple test cases demonstrating how to use the pipeline with real data. ```examples/run_single.py``` is an example of a script running the full pipeline on one single optical measurement and ```examples/run_multiple.py``` is an example of multiple measurements.
@@ -23,7 +27,6 @@ The Swanepoel method depends critically on the optical coherence conditions of t
 ## Coherence Length and Fringe Visibility
 The coherence length describes the distance over which the light maintains a stable phase relationship. The coherence length must be longer than the optical path difference created by the film.
 Otherwise, reflections from deeper layers lose phase correlation, and the measured transmission becomes smooth.
-For interference fringes to form:
 ## Film Thickness Constraint
 If the coherence length is shorter than the film thickness, interference patterns disappear entirely, making the Swanepoel method unusable.
 A fringe-free spectrum does not carry enough information to extract film thickness.
