@@ -1,5 +1,5 @@
 # Swanepoel optical thickness and constants calculator
-This project is an implementation of the Swanepoel method utilizing the transmission spectrum through a thin film to determine the thickness and refractive index of said film. **This script follows the R. Swanepoel approach descriped in ** R Swanepoel 1983 J. Phys. E: Sci. Instrum. 16 1214**.
+This project is an implementation of the Swanepoel method utilizing the transmission spectrum through a thin film to determine the thickness and refractive index of said film. This script follows the approach descriped in the original Swanepoel paper:
 > **R. Swanepoel (1983)**  
 > *Determination of the thickness and optical constants of amorphous silicon.*  
 > *Journal of Physics E: Scientific Instruments,* **16**, 1214–1222.  
